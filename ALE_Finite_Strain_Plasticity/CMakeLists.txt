@@ -15,8 +15,8 @@ SET(TARGET "PlasticityLab")
 # or switch altogether to the large project CMakeLists.txt file discussed
 # in the "CMake in user projects" page accessible from the "User info"
 # page of the documentation.
-FILE(GLOB_RECURSE TARGET_SRC  "*.cpp")
-FILE(GLOB_RECURSE TARGET_INC  "*.h")
+FILE(GLOB_RECURSE TARGET_SRC  "./src/*.cpp")
+FILE(GLOB_RECURSE TARGET_INC  "./src/*.h")
 SET(TARGET_SRC ${TARGET_SRC}  ${TARGET_INC})
 
 # Define the output that should be cleaned:
